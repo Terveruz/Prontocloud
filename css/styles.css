@@ -157,14 +157,22 @@ footer small {
     overflow: hidden !important;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1042px) {
     section nav,
     section article {
         width: 100%;
+        text-align: left;
     }  
 
     .container {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: auto;
+        padding-right: auto;
+
     }
-}
+    body { 
+        display: block;
+
+    }
+    
+    }
+
